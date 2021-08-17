@@ -10,7 +10,7 @@ public class Util {
 
     public static void logEnvironment(Object event, Gson gson)
     {
-        log.info("ENVIRONMENT VARIABLES: " + gson.toJson(System.getenv()));
+        //log.info("ENVIRONMENT VARIABLES: " + gson.toJson(System.getenv()));
         log.info("EVENT: " + gson.toJson(event));
         log.info("EVENT TYPE: " + event.getClass().toString());
     }
